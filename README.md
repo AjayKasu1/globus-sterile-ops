@@ -1,6 +1,8 @@
 # Globus Medical - Sterile Operations Suite 🩺
 **Candidate Project for JR105344: Inventory & Data Analyst**
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ajaykasu1-globus-sterile-ops-app-qyefxb.streamlit.app/)
+
 ## 🚀 Project Overview
 This portfolio project simulates a **Production-Ready Data Suite** for Globus Medical's Sterile Operations department. It integrates **Inventory**, **Procurement**, and **Manufacturing** data into a unified SQLite database and provides a real-time **Streamlit Dashboard** for decision-making.
 
