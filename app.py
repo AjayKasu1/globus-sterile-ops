@@ -114,7 +114,7 @@ with col2:
     st.subheader("Inventory by Category")
     if 'Category' in inventory.columns:
         cat_dist = inventory.groupby('Category')['Stock_Quantity'].sum().reset_index()
-        fig_pie = px.donut(cat_dist, values='Stock_Quantity', names='Category', hole=0.4,
+        fig_pie = px.pie(cat_dist, values='Stock_Quantity', names='Category', hole=0.4,
                            title="Stock Distribution",
                            color_discrete_sequence=px.colors.sequential.RdBu)
         st.plotly_chart(fig_pie, use_container_width=True)

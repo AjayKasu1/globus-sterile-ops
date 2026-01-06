@@ -47,6 +47,7 @@ st.plotly_chart(fig_abc, use_container_width=True)
 st.subheader("Warehouse Layout View")
 if 'Bin_Location' in df.columns:
     # Just a simple treemap to simulate warehouse bins
-    fig_tree = px.treemap(df, path=['Bin_Location', 'Part_ID'], values='Stock_Quantity',
+    df_tree = df[df['Stock_Quantity'] > 0]
+    fig_tree = px.treemap(df_tree, path=['Bin_Location', 'Part_ID'], values='Stock_Quantity',
                           title="Warehouse Stock by Bin Location", color='Stock_Quantity', color_continuous_scale='Blues')
     st.plotly_chart(fig_tree, use_container_width=True)

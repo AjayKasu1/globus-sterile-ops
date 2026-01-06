@@ -24,7 +24,7 @@ col2.metric("Quarantined Lots (Failed)", len(failed_jobs), delta="Action Needed"
 # Report 1: Supplier Compliance
 st.subheader("🚫 Non-Compliant Supplier Orders")
 if not non_comp_pos.empty:
-    st.dataframe(non_comp_pos[['PO_ID', 'Supplier', 'Date', 'Compliance', 'Defective_Units']], use_container_width=True)
+    st.dataframe(non_comp_pos[['PO_ID', 'Supplier', 'Order_Date', 'Compliance', 'Defective_Units']], use_container_width=True)
 else:
     st.success("100% Supplier Compliance Achieved!")
 
