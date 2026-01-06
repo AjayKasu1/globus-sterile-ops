@@ -153,7 +153,6 @@ st.sidebar.markdown(
     **Location:** Audubon, PA  
     
     ---
-    **Developer:** Ajay Kasu  
-    *Generated via Antigravity Agent*
+    **Developer:** Ajay Kasu
     """
 )
