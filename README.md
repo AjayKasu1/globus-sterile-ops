@@ -12,13 +12,11 @@ The system addresses key responsibilities from the job description (JR105344), i
 
 ---
 
-## 🎯 Resume & Interview Talking Points
-*Add these bullets to your resume or mention them during the interview:*
-
-- **Developed end-to-end Sterile Operations suite**: Reduced simulated backorders by **15%** and optimized batch scheduling efficiency using Python & SQL.
-- **Built PO discrepancy resolver**: Automated logic to flag **$47K+** in potential non-compliant or defective orders, ensuring 100% traceability.
-- **Created Lot WIP Tracker**: Designed a real-time Streamlit heatmap to visualize bottlenecks across **Cleaning → Sterilization → Release** phases.
-- **Automated Reporting**: Replaced manual Excel processes with a **Python/SQLite pipeline**, generating 6 key operational reports instantly.
+## 🏆 Key Achievements
+- **End-to-End Development**: Built a comprehensive Sterile Operations suite using Python & SQL, reducing simulated backorders by **15%** and optimizing batch scheduling efficiencies.
+- **Automated Discrepancy Resolution**: Developed logic to automatically flag **$47K+** in potential non-compliant or defective orders, ensuring 100% traceability.
+- **Real-Time Visualization**: Designed a Streamlit heatmap to visualize bottlenecks across **Cleaning → Sterilization → Release** phases, improving WIP visibility.
+- **Process Automation**: Replaced manual Excel workflows with a **Python/SQLite pipeline**, instantly generating 6 key operational reports.
 
 ---
 
