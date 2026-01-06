@@ -15,9 +15,6 @@ st.set_page_config(
 # --- Styling ---
 st.markdown("""
 <style>
-    [data-testid="stSidebar"] {
-        background-color: #f0f2f6;
-    }
     .main .block-container {
         padding-top: 2rem;
     }
